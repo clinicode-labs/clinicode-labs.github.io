@@ -2,7 +2,9 @@
 
 **Official website for Clinicode Labs** - Clinical coding and healthcare technology solutions.
 
-Clinicode Labs provides innovative healthcare technology solutions focused on clinical coding and decision-making tools for medical professionals.
+Technology should help us focus on what we do best, rather than getting bogged down in everyday minutiae or admin tasks.
+
+Each tool is built from a genuine need I've experienced myself. I started this project because some of it could help others, too.
 
 **[Visit Website](https://clinicode-labs.github.io)**
 

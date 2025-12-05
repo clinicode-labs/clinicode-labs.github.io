@@ -72,33 +72,36 @@ export default function RegulatoryPage() {
                                 For more information about the regulation of software-based medical devices in Australia,
                                 please refer to the TGA guidance:
                             </p>
-                            <ul className="list-disc pl-6 text-gray-600 space-y-2 mt-4">
+                            <ul className="list-disc pl-6 text-gray-600 space-y-3 mt-4">
                                 <li>
                                     <Link
-                                        href="https://www.tga.gov.au/resources/resource/guidance/understanding-if-your-software-based-medical-device-excluded-our-regulation"
+                                        href="https://www.tga.gov.au/resources/guidance/understanding-if-your-software-based-medical-device-excluded-our-regulation"
                                         target="_blank"
                                         className="text-[#0c6a6c] hover:underline"
                                     >
-                                        Understanding if your software-based medical device is excluded from regulation
+                                        Understanding if your software-based medical device is excluded from our regulation
                                     </Link>
+                                    <span className="text-gray-400 text-sm ml-2">(TGA)</span>
                                 </li>
                                 <li>
                                     <Link
-                                        href="https://www.tga.gov.au/resources/resource/guidance/regulation-software-based-medical-devices"
+                                        href="https://www.tga.gov.au/resources/guidance/understanding-regulation-software-based-medical-devices"
                                         target="_blank"
                                         className="text-[#0c6a6c] hover:underline"
                                     >
-                                        Regulation of software-based medical devices
+                                        Understanding regulation of software-based medical devices
                                     </Link>
+                                    <span className="text-gray-400 text-sm ml-2">(TGA)</span>
                                 </li>
                                 <li>
                                     <Link
-                                        href="https://www.tga.gov.au/resources/resource/guidance/clinical-decision-support-software"
+                                        href="https://www.tga.gov.au/resources/guidance/understanding-clinical-decision-support-software"
                                         target="_blank"
                                         className="text-[#0c6a6c] hover:underline"
                                     >
-                                        Clinical decision support software guidance
+                                        Understanding clinical decision support software
                                     </Link>
+                                    <span className="text-gray-400 text-sm ml-2">(TGA)</span>
                                 </li>
                             </ul>
 

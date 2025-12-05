@@ -40,7 +40,7 @@ export function ToolsSection() {
             >
               {/* Watermark logo */}
               <div className="absolute -bottom-4 -right-4 opacity-5 group-hover:opacity-10 transition-opacity">
-                <img src="/../assets/logo_icon.svg" alt="" className="h-32 w-32" />
+                <img src="/assets/logo_icon.svg" alt="" className="h-32 w-32" />
               </div>
 
               <CardHeader>

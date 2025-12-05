@@ -13,7 +13,7 @@ export function WhySection() {
     <section id="about" className="relative py-20 md:py-28 bg-[#152549] overflow-hidden">
       {/* Background watermark logo */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-5">
-        <img src="/../assets/logo_knockout.svg" alt="" className="h-[500px] w-auto" />
+        <img src="/assets/logo_knockout.svg" alt="" className="h-[500px] w-auto" />
       </div>
 
       <div className="container relative mx-auto px-4 md:px-6">

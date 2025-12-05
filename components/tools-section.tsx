@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Timer, Calculator, Smartphone, Activity, TestTube } from "lucide-react"
+import { Timer, Calculator, Smartphone, Activity, TestTube, CalendarClock } from "lucide-react"
 import Link from "next/link"
 
 const tools = [
@@ -41,6 +41,13 @@ const tools = [
     icon: TestTube,
     status: "In Development",
     slug: "electrolyte-wizard",
+  },
+  {
+    title: "Prep-Pal",
+    description: "Visual timeline generator for bowel prep. Enter procedure time to get a simple schedule: \"Stop solids at 10 AM,\" \"Drink First Sachet at 6:00 AM.\"",
+    icon: CalendarClock,
+    status: "In Development",
+    slug: "prep-pal",
   },
 ]
 

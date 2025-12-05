@@ -8,6 +8,7 @@ const footerLinks = {
     { name: "MSHPrescribe App", href: "/tools/mshprescribe" },
     { name: "The \"One-Stop\" Liver Screen", href: "/tools/liver-screen" },
     { name: "Electrolyte Replacement Wizard", href: "/tools/electrolyte-wizard" },
+    { name: "Prep-Pal", href: "/tools/prep-pal" },
   ],
   company: [
     { name: "About Us", href: "/about" },

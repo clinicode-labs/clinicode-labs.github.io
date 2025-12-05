@@ -19,7 +19,7 @@ export function WhySection() {
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Why CliniCode?</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Why Clinicode?</h2>
             <p className="mt-6 text-lg text-gray-300 leading-relaxed">
               We're junior doctors who code in our spare time. These are tools we've built to solve problems we've actually faced in our own practice. Nothing fancy, just practical solutions.
             </p>

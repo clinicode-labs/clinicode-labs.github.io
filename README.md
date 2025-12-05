@@ -1,14 +1,14 @@
-# CliniCode Labs
+# Clinicode Labs
 
-Official website for CliniCode Labs - Clinical coding and healthcare technology solutions.
+Official website for Clinicode Labs - Clinical coding and healthcare technology solutions.
 
 ## About
 
-CliniCode Labs provides innovative healthcare technology solutions focused on clinical coding and decision-making tools for medical professionals.
+Clinicode Labs provides innovative healthcare technology solutions focused on clinical coding and decision-making tools for medical professionals.
 
 ## Website
 
-This repository hosts the CliniCode Labs landing page at:  
+This repository hosts the Clinicode Labs landing page at:  
 **[https://clinicode-labs.github.io](https://clinicode-labs.github.io)**
 
 ## Development
@@ -39,4 +39,4 @@ pnpm build
 
 ## License
 
-Copyright © 2025 CliniCode Labs. All rights reserved.
+Copyright © 2025 Clinicode Labs. All rights reserved.

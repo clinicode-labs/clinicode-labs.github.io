@@ -6,7 +6,7 @@ export default function AboutPage() {
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="mx-auto max-w-3xl">
                         <h1 className="text-4xl font-bold tracking-tight text-[#152549] sm:text-5xl mb-6">
-                            About CliniCode Labs
+                            About Clinicode Labs
                         </h1>
                         <div className="prose prose-lg max-w-none">
                             <p className="text-xl text-gray-600 leading-relaxed mb-8">
@@ -23,7 +23,7 @@ export default function AboutPage() {
 
                             <h2 className="text-2xl font-bold text-[#152549] mt-12 mb-4">The Mission</h2>
                             <p className="text-gray-600 leading-relaxed">
-                                CliniCode Labs is my way of building practical tools that solve real problems I encounter in clinical practice.
+                                Clinicode Labs is my way of building practical tools that solve real problems I encounter in clinical practice.
                                 No fancy promises, no exaggeration—just simple apps that make the day-to-day work a bit easier.
                             </p>
 

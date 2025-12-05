@@ -1,11 +1,11 @@
 import { Check } from "lucide-react"
 
 const features = [
-  "Created by practicing physicians who understand clinical needs",
-  "Evidence-based algorithms and calculations",
-  "Designed for speed and efficiency in high-pressure environments",
-  "Regular updates based on latest medical guidelines",
-  "HIPAA-compliant and secure",
+  "Built by practicing physicians in Australia",
+  "Solving real problems we've encountered ourselves",
+  "Open to collaboration and feedback from other doctors",
+  "Simple, focused tools that do one thing well",
+  "Privacy-focused and secure by design",
 ]
 
 export function WhySection() {
@@ -19,10 +19,9 @@ export function WhySection() {
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Why Clinicode?</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Why CliniCode?</h2>
             <p className="mt-6 text-lg text-gray-300 leading-relaxed">
-              We&apos;re not just developers building medical software — we&apos;re physicians who code. Every tool we
-              create stems from real clinical problems we&apos;ve faced ourselves.
+              We're junior doctors who code in our spare time. These are tools we've built to solve problems we've actually faced in our own practice. Nothing fancy, just practical solutions.
             </p>
 
             <ul className="mt-8 space-y-4">
@@ -41,18 +40,15 @@ export function WhySection() {
             <div className="relative">
               <div className="absolute inset-0 bg-[#0c6a6c]/20 rounded-2xl blur-3xl" />
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
-                <div className="text-center">
-                  <div className="text-6xl font-bold text-[#0c6a6c]">10k+</div>
-                  <div className="mt-2 text-gray-300">Physicians Trust Us</div>
-                </div>
-                <div className="mt-8 grid grid-cols-2 gap-6">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-white">50+</div>
-                    <div className="mt-1 text-sm text-gray-400">Clinical Tools</div>
+                <div className="text-center space-y-6">
+                  <div>
+                    <div className="text-5xl font-bold text-[#0c6a6c]">Early Stage</div>
+                    <div className="mt-2 text-gray-300">Just Getting Started</div>
                   </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-white">99.9%</div>
-                    <div className="mt-1 text-sm text-gray-400">Uptime</div>
+                  <div className="pt-4 border-t border-white/10">
+                    <p className="text-sm text-gray-400 leading-relaxed">
+                      Small team, big ambitions. Building one useful tool at a time.
+                    </p>
                   </div>
                 </div>
               </div>

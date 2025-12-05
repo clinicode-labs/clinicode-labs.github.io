@@ -7,14 +7,14 @@ export function HeroSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-[#152549] sm:text-5xl md:text-6xl text-balance">
-            Built by Physicians, For Physicians.
+            Tools Built by Physicians, For Physicians.
           </h1>
           <p className="mt-6 text-lg text-gray-600 md:text-xl leading-relaxed">
-            Streamlining clinical workflow with precision tools and calculators.
+            Simple, practical tools to make your clinical workflow a bit easier. Built in Australia by doctors who understand the daily challenges.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white">
-              Explore Tools
+              View Apps
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button
@@ -22,7 +22,7 @@ export function HeroSection() {
               variant="outline"
               className="border-[#152549] text-[#152549] hover:bg-[#152549] hover:text-white bg-transparent"
             >
-              Learn More
+              Get in Touch
             </Button>
           </div>
         </div>

@@ -1,23 +1,27 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Calculator, Clock, Brain } from "lucide-react"
+import { Timer, Calculator, Smartphone } from "lucide-react"
 
 const tools = [
   {
+    title: "PomoDoist",
+    description:
+      "Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.",
+    icon: Timer,
+    status: "Available Now",
+    link: "https://pomodoist.vercel.app",
+  },
+  {
     title: "Frailty Calculator",
     description:
-      "Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes.",
+      "Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes. Coming soon.",
     icon: Calculator,
+    status: "In Development",
   },
   {
-    title: "Time Management Tools",
-    description:
-      "Optimize your clinical workflow with scheduling aids and productivity tools designed for busy physicians.",
-    icon: Clock,
-  },
-  {
-    title: "Decision Support Tools",
-    description: "Evidence-based clinical decision support to guide diagnosis and treatment planning at the bedside.",
-    icon: Brain,
+    title: "MSHPrescribe App",
+    description: "Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. For Queensland Health clinicians.",
+    icon: Smartphone,
+    status: "Beta Testing",
   },
 ]
 
@@ -26,9 +30,9 @@ export function ToolsSection() {
     <section id="tools" className="py-20 md:py-28 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight text-[#152549] sm:text-4xl">Our Tools</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-[#152549] sm:text-4xl">Our Apps</h2>
           <p className="mt-4 text-gray-600 leading-relaxed">
-            Purpose-built digital tools designed to enhance clinical decision-making and streamline your workflow.
+            Small projects solving specific problems we've encountered in clinical practice.
           </p>
         </div>
 
@@ -44,16 +48,47 @@ export function ToolsSection() {
               </div>
 
               <CardHeader>
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-[#0c6a6c]/10">
-                  <tool.icon className="h-6 w-6 text-[#0c6a6c]" />
+                <div className="flex items-start justify-between">
+                  <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-[#0c6a6c]/10">
+                    <tool.icon className="h-6 w-6 text-[#0c6a6c]" />
+                  </div>
+                  <span className="text-xs font-medium px-2 py-1 rounded-full bg-[#0c6a6c]/10 text-[#0c6a6c]">
+                    {tool.status}
+                  </span>
                 </div>
                 <CardTitle className="text-xl font-semibold text-[#152549]">{tool.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600 leading-relaxed">{tool.description}</CardDescription>
+                {tool.link && (
+                  <a
+                    href={tool.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block text-sm font-medium text-[#0c6a6c] hover:underline"
+                  >
+                    Try it now →
+                  </a>
+                )}
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Call to Action for Collaboration */}
+        <div className="mt-16 mx-auto max-w-2xl text-center">
+          <div className="bg-gradient-to-br from-[#0c6a6c]/5 to-[#152549]/5 rounded-2xl p-8 border border-[#0c6a6c]/20">
+            <h3 className="text-2xl font-bold text-[#152549] mb-3">Got an App Idea?</h3>
+            <p className="text-gray-600 mb-6">
+              We're always looking for ways to solve real clinical problems. If you're a physician with an idea for a tool that could help your practice, we'd love to hear from you.
+            </p>
+            <a
+              href="mailto:contact@clinicodelabs.com"
+              className="inline-block px-6 py-3 bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white font-medium rounded-lg transition-colors"
+            >
+              Get in Touch
+            </a>
+          </div>
         </div>
       </div>
     </section>

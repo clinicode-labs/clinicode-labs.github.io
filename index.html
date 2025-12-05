@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinicode Labs // System Status</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 400px;
+            border: 1px solid #333;
+            padding: 2rem;
+            box-shadow: 0 0 20px rgba(0, 255, 170, 0.05);
+        }
+        h1 {
+            font-size: 1rem;
+            color: #00ffaa; /* Clinical Green */
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+        .status-line {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 0.85rem;
+        }
+        .status-ok { color: #00ffaa; }
+        .status-load { color: #ffcc00; }
+        .blink { animation: blinker 1s linear infinite; }
+        
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Clinicode Labs</h1>
+        <div class="status-line"><span>HOSTING_NODE</span> <span class="status-ok">[ONLINE]</span></div>
+        <div class="status-line"><span>LATENCY</span> <span class="status-ok">12ms</span></div>
+        <div class="status-line"><span>SECURE_SHELL</span> <span class="status-ok">[ACTIVE]</span></div>
+        <br>
+        <div class="status-line"><span>PROJECT_INDEX</span> <span class="status-load">LOADING...</span></div>
+        <br>
+        <div class="status-line"><span class="blink">> WAITING_FOR_INPUT_</span></div>
+    </div>
+</body>
+</html>

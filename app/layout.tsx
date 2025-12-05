@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     shortcut: '/assets/logo_appicon_square.svg',
     apple: '/assets/logo_appicon_square.svg',
   },
+  verification: {
+    google: 'LLa7du10QrAG59QSegqNghi5RNzhj-QFVZF1BpxCwaA',
+  },
 }
 
 export default function RootLayout({

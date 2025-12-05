@@ -48,8 +48,15 @@ export default function MSHPrescribePage() {
                                 </p>
 
                                 {/* Status Badge */}
-                                <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-full">
-                                    <span className="text-sm font-medium text-blue-800">🧪 Beta Testing</span>
+                                <div className="flex flex-wrap items-center gap-4">
+                                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-full">
+                                        <span className="text-sm font-medium text-blue-800">🧪 Beta Testing</span>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
+                                            MIT License
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
 

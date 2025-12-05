@@ -41,13 +41,27 @@ export default function PomoDoistPage() {
                                     and maintain productivity across all your devices.
                                 </p>
 
-                                {/* CTA Button */}
-                                <Link href="https://pomodoro-todoist.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <Button className="bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white">
-                                        <ExternalLink className="mr-2 h-4 w-4" />
-                                        Launch PomoDoist
-                                    </Button>
-                                </Link>
+                                {/* CTA Buttons */}
+                                <div className="flex flex-wrap items-center gap-4">
+                                    <Link href="https://pomodoro-todoist.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                        <Button className="bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white">
+                                            <ExternalLink className="mr-2 h-4 w-4" />
+                                            Launch PomoDoist
+                                        </Button>
+                                    </Link>
+                                    <Link href="https://github.com/AshaneH/pomodoro-todoist" target="_blank" rel="noopener noreferrer">
+                                        <Button variant="outline" className="text-[#152549] border-[#152549]/20 hover:bg-[#152549]/5">
+                                            View Source (GitHub)
+                                        </Button>
+                                    </Link>
+                                </div>
+
+                                <div className="mt-6 flex items-center gap-2">
+                                    <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
+                                        MIT License
+                                    </span>
+                                    <span className="text-sm text-gray-500">Open Source Software</span>
+                                </div>
                             </div>
 
                             {/* Key Features */}

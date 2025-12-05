@@ -61,6 +61,9 @@ export function Footer() {
           <p className="text-center text-gray-400 text-sm">
             © {new Date().getFullYear()} Clinicode Labs. All rights reserved.
           </p>
+          <p className="mt-2 text-center text-gray-500 text-xs">
+            Source code is MIT Licensed.
+          </p>
         </div>
       </div>
     </footer>

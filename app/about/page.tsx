@@ -19,12 +19,7 @@ export default function AboutPage() {
                                     working in Queensland with an interest in Gastroenterology and Hepatology.
                                 </p>
 
-                                <div className="bg-[#0c6a6c]/5 border-l-4 border-[#0c6a6c] p-6 my-8">
-                                    <p className="text-lg text-gray-700 italic">
-                                        "I believe leveraging technology leads to a more human experience for our patients,
-                                        allowing us to put our time towards what matters."
-                                    </p>
-                                </div>
+
 
                                 <h2 className="text-2xl font-bold text-[#152549] mt-12 mb-4">The Mission</h2>
                                 <p className="text-gray-600 leading-relaxed">
@@ -34,7 +29,7 @@ export default function AboutPage() {
 
                                 <h2 className="text-2xl font-bold text-[#152549] mt-12 mb-4">Why Build These Tools?</h2>
                                 <p className="text-gray-600 leading-relaxed mb-4">
-                                    Technology should help us focus on what we do best, rather than getting bogged down in everyday minutiae or admin tasks.
+                                    Technology should help us focus on patient care, rather than getting bogged down in everyday minutiae or admin tasks.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed">
                                     Each tool is built from a genuine need I've experienced myself. I started this project because some of it could help others, too.

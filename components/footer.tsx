@@ -6,6 +6,8 @@ const footerLinks = {
     { name: "PomoDoist", href: "/tools/pomodoist" },
     { name: "Frailty Calculator", href: "/tools/frailty-calculator" },
     { name: "MSHPrescribe App", href: "/tools/mshprescribe" },
+    { name: "The \"One-Stop\" Liver Screen", href: "/tools/liver-screen" },
+    { name: "Electrolyte Replacement Wizard", href: "/tools/electrolyte-wizard" },
   ],
   company: [
     { name: "About Us", href: "/about" },
@@ -51,7 +53,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="mailto:hello@clinicode.io" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
+                <Link href="/contact" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
                   Contact
                 </Link>
               </li>

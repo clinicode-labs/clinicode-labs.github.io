@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { StackedDarkLogo } from "@/components/logos/stacked-dark-logo"
+import Image from "next/image"
 
 const footerLinks = {
   tools: [
@@ -28,7 +28,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           {/* Logo and description */}
           <div className="lg:col-span-2">
-            <StackedDarkLogo className="h-24 w-auto" />
+            <img src="/../assets/logo_darkmode.svg" alt="CliniCode Labs" className="h-24 w-auto" />
             <p className="mt-4 text-gray-400 max-w-sm leading-relaxed">
               Essential digital tools and calculators built by physicians to improve the day-to-day lives of doctors.
             </p>

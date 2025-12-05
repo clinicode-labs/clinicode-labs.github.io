@@ -1,13 +1,13 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { HorizontalLogo } from "@/components/logos/horizontal-logo"
+import Image from "next/image"
 
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center">
-          <HorizontalLogo className="h-10 w-auto" />
+          <img src="/../assets/logo.svg" alt="CliniCode Labs" className="h-14 w-auto" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">

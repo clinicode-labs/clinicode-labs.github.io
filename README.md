@@ -12,14 +12,17 @@ We build small projects to solve specific problems encountered in clinical pract
 
 ### [PomoDoist](https://clinicode-labs.github.io/tools/pomodoist)
 **Status:** ✅ Available Now
+
 Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.
 
 ### [Frailty Calculator](https://clinicode-labs.github.io/tools/frailty-calculator)
 **Status:** 🚧 In Development
+
 Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes.
 
 ### [MSHPrescribe App](https://clinicode-labs.github.io/tools/mshprescribe)
 **Status:** 🧪 Beta Testing
+
 Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. Designed for Queensland Health clinicians.
 
 ---

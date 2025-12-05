@@ -3,13 +3,13 @@ import Image from "next/image"
 
 const footerLinks = {
   tools: [
-    { name: "PomoDoist", href: "https://pomodoro-todoist.vercel.app/" },
-    { name: "Frailty Calculator", href: "#tools" },
-    { name: "MSHPrescribe App", href: "#tools" },
+    { name: "PomoDoist", href: "/tools/pomodoist" },
+    { name: "Frailty Calculator", href: "/tools/frailty-calculator" },
+    { name: "MSHPrescribe App", href: "/tools/mshprescribe" },
   ],
   company: [
-    { name: "About Us", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "About Us", href: "/about" },
+    { name: "Contact", href: "/contact" },
   ],
 }
 

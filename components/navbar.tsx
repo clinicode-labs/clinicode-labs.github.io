@@ -11,13 +11,13 @@ export function Navbar() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="#tools" className="text-sm font-medium text-[#152549] hover:text-[#0c6a6c] transition-colors">
-            Tools
+          <Link href="/#tools" className="text-sm font-medium text-[#152549] hover:text-[#0c6a6c] transition-colors">
+            Apps
           </Link>
-          <Link href="#about" className="text-sm font-medium text-[#152549] hover:text-[#0c6a6c] transition-colors">
+          <Link href="/about" className="text-sm font-medium text-[#152549] hover:text-[#0c6a6c] transition-colors">
             About
           </Link>
-          <Link href="#contact" className="text-sm font-medium text-[#152549] hover:text-[#0c6a6c] transition-colors">
+          <Link href="/contact" className="text-sm font-medium text-[#152549] hover:text-[#0c6a6c] transition-colors">
             Contact
           </Link>
         </nav>

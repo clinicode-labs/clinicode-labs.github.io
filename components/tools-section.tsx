@@ -37,42 +37,45 @@ export function ToolsSection() {
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
-          {tools.map((tool, index) => (
-            <Card
-              key={index}
-              className="relative overflow-hidden border border-gray-200 hover:border-[#0c6a6c]/50 hover:shadow-lg transition-all duration-300 group"
-            >
-              {/* Watermark logo */}
-              <div className="absolute -bottom-4 -right-4 opacity-5 group-hover:opacity-10 transition-opacity">
-                <img src="/assets/logo_icon.svg" alt="" className="h-32 w-32" />
-              </div>
+          {tools.map((tool, index) => {
+            const toolSlug = tool.title.toLowerCase().replace(/\s+/g, "-").replace("pomodoist", "pomodoist")
+            const toolPageHref = `/tools/${toolSlug}`
 
-              <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-[#0c6a6c]/10">
-                    <tool.icon className="h-6 w-6 text-[#0c6a6c]" />
-                  </div>
-                  <span className="text-xs font-medium px-2 py-1 rounded-full bg-[#0c6a6c]/10 text-[#0c6a6c]">
-                    {tool.status}
-                  </span>
+            return (
+              <Card
+                key={index}
+                className="relative overflow-hidden border border-gray-200 hover:border-[#0c6a6c]/50 hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                onClick={() => window.location.href = tool.link || toolPageHref}
+              >
+                {/* Watermark logo */}
+                <div className="absolute -bottom-4 -right-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <img src="/assets/logo_icon.svg" alt="" className="h-32 w-32" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-[#152549]">{tool.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-gray-600 leading-relaxed">{tool.description}</CardDescription>
-                {tool.link && (
+
+                <CardHeader>
+                  <div className="flex items-start justify-between">
+                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-[#0c6a6c]/10">
+                      <tool.icon className="h-6 w-6 text-[#0c6a6c]" />
+                    </div>
+                    <span className="text-xs font-medium px-2 py-1 rounded-full bg-[#0c6a6c]/10 text-[#0c6a6c]">
+                      {tool.status}
+                    </span>
+                  </div>
+                  <CardTitle className="text-xl font-semibold text-[#152549]">{tool.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-gray-600 leading-relaxed">{tool.description}</CardDescription>
                   <a
-                    href={tool.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={toolPageHref}
                     className="mt-4 inline-block text-sm font-medium text-[#0c6a6c] hover:underline"
+                    onClick={(e) => e.stopPropagation()}
                   >
-                    Try it now →
+                    Learn more →
                   </a>
-                )}
-              </CardContent>
-            </Card>
-          ))}
+                </CardContent>
+              </Card>
+            )
+          })}
         </div>
 
         {/* Call to Action for Collaboration */}

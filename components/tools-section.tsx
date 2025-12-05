@@ -11,7 +11,7 @@ const tools = [
       "Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.",
     icon: Timer,
     status: "Available Now",
-    link: "https://pomodoro-todoist.vercel.app/",
+    slug: "pomodoist",
   },
   {
     title: "Frailty Calculator",
@@ -19,12 +19,14 @@ const tools = [
       "Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes. Coming soon.",
     icon: Calculator,
     status: "In Development",
+    slug: "frailty-calculator",
   },
   {
     title: "MSHPrescribe App",
     description: "Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. For Queensland Health clinicians.",
     icon: Smartphone,
     status: "Beta Testing",
+    slug: "mshprescribe",
   },
 ]
 
@@ -41,14 +43,13 @@ export function ToolsSection() {
 
         <div className="grid gap-8 md:grid-cols-3">
           {tools.map((tool, index) => {
-            const toolSlug = tool.title.toLowerCase().replace(/\s+/g, "-").replace("pomodoist", "pomodoist")
-            const toolPageHref = `/tools/${toolSlug}`
+            const toolPageHref = `/tools/${tool.slug}`
 
             return (
               <Card
                 key={index}
                 className="relative overflow-hidden border border-gray-200 hover:border-[#0c6a6c]/50 hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                onClick={() => window.location.href = tool.link || toolPageHref}
+                onClick={() => window.location.href = toolPageHref}
               >
                 {/* Watermark logo */}
                 <div className="absolute -bottom-4 -right-4 opacity-5 group-hover:opacity-10 transition-opacity">

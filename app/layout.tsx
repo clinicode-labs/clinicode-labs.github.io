@@ -9,14 +9,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'CliniCode Labs',
   description: 'Clinical coding and healthcare technology',
-  icons: {
-    icon: [
-      {
-        url: '/assets/logo_square.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-  },
 }
 
 export default function RootLayout({

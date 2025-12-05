@@ -8,7 +8,7 @@ const tools = [
       "Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.",
     icon: Timer,
     status: "Available Now",
-    link: "https://pomodoist.vercel.app",
+    link: "https://pomodoro-todoist.vercel.app/",
   },
   {
     title: "Frailty Calculator",

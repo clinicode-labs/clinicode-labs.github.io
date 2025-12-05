@@ -5,7 +5,7 @@ import Image from "next/image"
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+      <div className="container mx-auto flex h-24 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center">
           <img src="/assets/logo.svg" alt="CliniCode Labs" className="h-20 w-auto" />
         </Link>

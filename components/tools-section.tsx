@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Timer, Calculator, Smartphone } from "lucide-react"
+import { Timer, Calculator, Smartphone, Activity, TestTube } from "lucide-react"
 import Link from "next/link"
 
 const tools = [
@@ -14,6 +14,13 @@ const tools = [
     slug: "pomodoist",
   },
   {
+    title: "MSHPrescribe App",
+    description: "Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. For Queensland Health clinicians.",
+    icon: Smartphone,
+    status: "Beta Testing",
+    slug: "mshprescribe",
+  },
+  {
     title: "Frailty Calculator",
     description:
       "Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes. Coming soon.",
@@ -22,11 +29,18 @@ const tools = [
     slug: "frailty-calculator",
   },
   {
-    title: "MSHPrescribe App",
-    description: "Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. For Queensland Health clinicians.",
-    icon: Smartphone,
-    status: "Beta Testing",
-    slug: "mshprescribe",
+    title: "The 'One-Stop' Liver Screen",
+    description: "Single-input calculator for Child-Pugh, MELD, MELD-Na, and Maddrey’s Discriminant Function. Enter values once, get all scores.",
+    icon: Activity,
+    status: "In Development",
+    slug: "liver-screen",
+  },
+  {
+    title: "Electrolyte Replacement Wizard",
+    description: "Digitized Queensland Health electrolyte replacement guidelines. Select element (K, Mg, PO4) and level to get recommended dose and route.",
+    icon: TestTube,
+    status: "In Development",
+    slug: "electrolyte-wizard",
   },
 ]
 

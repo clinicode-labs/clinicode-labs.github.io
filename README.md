@@ -15,15 +15,25 @@ We build small projects to solve specific problems encountered in clinical pract
 
 Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.
 
+### [MSHPrescribe App](https://clinicode-labs.github.io/tools/mshprescribe)
+**Status:** 🧪 Beta Testing
+
+Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. Designed for Queensland Health clinicians.
+
 ### [Frailty Calculator](https://clinicode-labs.github.io/tools/frailty-calculator)
 **Status:** 🚧 In Development
 
 Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes.
 
-### [MSHPrescribe App](https://clinicode-labs.github.io/tools/mshprescribe)
-**Status:** 🧪 Beta Testing
+### [The 'One-Stop' Liver Screen](https://clinicode-labs.github.io/tools/liver-screen)
+**Status:** 🚧 In Development
 
-Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. Designed for Queensland Health clinicians.
+Single-input calculator for Child-Pugh, MELD, MELD-Na, and Maddrey’s Discriminant Function. Enter values once, get all scores.
+
+### [Electrolyte Replacement Wizard](https://clinicode-labs.github.io/tools/electrolyte-wizard)
+**Status:** 🚧 In Development
+
+Digitized Queensland Health electrolyte replacement guidelines. Select element (K, Mg, PO4) and level to get recommended dose and route.
 
 ---
 

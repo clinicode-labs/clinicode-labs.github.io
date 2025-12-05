@@ -38,31 +38,6 @@ export default function MSHPrescribePage() {
                                 <p className="text-sm text-amber-700">
                                     This app is independently developed and not affiliated with Metro South Health or Queensland Health.
                                 </p>
-                            </div>
-
-                            {/* Description */}
-                            <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 mb-8">
-                                <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                                    An unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone.
-                                    Designed specifically for Queensland Health clinicians who need quick access to clinical decision support tools.
-                                </p>
-
-                                {/* Status Badge */}
-                                <div className="flex flex-wrap items-center gap-4">
-                                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-full">
-                                        <span className="text-sm font-medium text-blue-800">🧪 Beta Testing</span>
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                        <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
-                                            MIT License
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Key Features */}
-                            <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
-                                <h2 className="text-2xl font-bold text-[#152549] mb-6">Key Features</h2>
                                 <ul className="grid gap-4 md:grid-cols-2">
                                     {features.map((feature, index) => (
                                         <li key={index} className="flex items-start gap-3">

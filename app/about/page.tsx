@@ -34,12 +34,10 @@ export default function AboutPage() {
 
                                 <h2 className="text-2xl font-bold text-[#152549] mt-12 mb-4">Why Build These Tools?</h2>
                                 <p className="text-gray-600 leading-relaxed mb-4">
-                                    As junior doctors, we're constantly juggling tasks, making decisions under pressure, and trying to provide
-                                    the best care possible. Technology should help us focus on what we do best—caring for patients—rather than
-                                    getting bogged down in administrative tasks or searching for information.
+                                    Technology should help us focus on what we do best, rather than getting bogged down in everyday minutiae or admin tasks.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed">
-                                    Each tool is built from a genuine need I've experienced myself. If it helps other physicians too, that's a bonus.
+                                    Each tool is built from a genuine need I've experienced myself. I started this project because some of it could help others, too.
                                 </p>
 
                                 <h2 className="text-2xl font-bold text-[#152549] mt-12 mb-4">Collaboration</h2>

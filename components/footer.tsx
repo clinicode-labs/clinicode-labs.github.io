@@ -51,13 +51,18 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/license" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
-                  MIT License
+                <Link href="mailto:hello@clinicode.io" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
+                  Contact
                 </Link>
               </li>
               <li>
-                <Link href="mailto:hello@clinicode.io" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
-                  Contact
+                <Link href="/regulatory" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
+                  Regulatory
+                </Link>
+              </li>
+              <li>
+                <Link href="/license" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
+                  MIT License
                 </Link>
               </li>
             </ul>

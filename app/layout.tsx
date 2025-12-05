@@ -9,6 +9,24 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Clinicode Labs',
   description: 'Clinical coding and healthcare technology',
+  openGraph: {
+    title: 'Clinicode Labs',
+    description: 'Clinical coding and healthcare technology',
+    images: [
+      {
+        url: '/assets/logo_previewcard.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Clinicode Labs',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Clinicode Labs',
+    description: 'Clinical coding and healthcare technology',
+    images: ['/assets/logo_previewcard.svg'],
+  },
   icons: {
     icon: [
       { url: '/assets/logo_appicon_square.svg', type: 'image/svg+xml' },

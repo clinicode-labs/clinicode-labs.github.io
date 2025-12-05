@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -13,17 +14,21 @@ export function HeroSection() {
             Simple, practical tools to make your clinical workflow a bit easier. Built in Australia by doctors who understand the daily challenges.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white">
-              View Apps
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-[#152549] text-[#152549] hover:bg-[#152549] hover:text-white bg-transparent"
-            >
-              Get in Touch
-            </Button>
+            <Link href="/#tools">
+              <Button size="lg" className="bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white">
+                View Apps
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+            <Link href="/contact">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-[#152549] text-[#152549] hover:bg-[#152549] hover:text-white bg-transparent"
+              >
+                Get in Touch
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Timer, Calculator, Smartphone } from "lucide-react"
+import Link from "next/link"
 
 const tools = [
   {
@@ -85,12 +86,11 @@ export function ToolsSection() {
             <p className="text-gray-600 mb-6">
               We're always looking for ways to solve real clinical problems. If you're a physician with an idea for a tool that could help your practice, we'd love to hear from you.
             </p>
-            <a
-              href="mailto:contact@clinicodelabs.com"
-              className="inline-block px-6 py-3 bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white font-medium rounded-lg transition-colors"
-            >
-              Get in Touch
-            </a>
+            <Link href="/contact">
+              <button className="inline-block px-6 py-3 bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white font-medium rounded-lg transition-colors">
+                Get in Touch
+              </button>
+            </Link>
           </div>
         </div>
       </div>

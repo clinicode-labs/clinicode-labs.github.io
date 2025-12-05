@@ -22,7 +22,9 @@ export function Navbar() {
           </Link>
         </nav>
 
-        <Button className="bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white">Get Started</Button>
+        <Link href="/contact">
+          <Button className="bg-[#0c6a6c] hover:bg-[#0a5a5c] text-white">Contact</Button>
+        </Link>
       </div>
     </header>
   )

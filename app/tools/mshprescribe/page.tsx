@@ -49,14 +49,9 @@ export default function MSHPrescribePage() {
                                 </p>
 
                                 {/* Status Badge and Links */}
-                                <div className="flex flex-wrap items-center gap-4">
+                                <div className="flex flex-wrap items-center gap-4 mb-6">
                                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-full">
                                         <span className="text-sm font-medium text-blue-800">🧪 Beta Testing</span>
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                        <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
-                                            MIT License
-                                        </span>
                                     </div>
                                     <Link href="https://github.com/AshaneH/mshprescribe-app/" target="_blank" rel="noopener noreferrer">
                                         <Button variant="outline" className="text-[#152549] border-[#152549]/20 hover:bg-[#152549]/5 h-9">
@@ -64,6 +59,13 @@ export default function MSHPrescribePage() {
                                             View Source (GitHub)
                                         </Button>
                                     </Link>
+                                </div>
+
+                                <div className="flex items-center gap-2">
+                                    <Link href="/license" className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 transition-colors">
+                                        MIT License
+                                    </Link>
+                                    <span className="text-sm text-gray-500">Open Source Software</span>
                                 </div>
                             </div>
 

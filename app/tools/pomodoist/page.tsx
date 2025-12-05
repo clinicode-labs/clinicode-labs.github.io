@@ -57,9 +57,9 @@ export default function PomoDoistPage() {
                                 </div>
 
                                 <div className="mt-6 flex items-center gap-2">
-                                    <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
+                                    <Link href="/license" className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 transition-colors">
                                         MIT License
-                                    </span>
+                                    </Link>
                                     <span className="text-sm text-gray-500">Open Source Software</span>
                                 </div>
                             </div>

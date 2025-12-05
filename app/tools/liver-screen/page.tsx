@@ -39,15 +39,17 @@ export default function LiverScreenPage() {
                                 </p>
 
                                 {/* Status Badge */}
-                                <div className="flex flex-wrap items-center gap-4">
+                                <div className="flex flex-wrap items-center gap-4 mb-6">
                                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 border border-amber-200 rounded-full">
                                         <span className="text-sm font-medium text-amber-800">🚧 In Development</span>
                                     </div>
-                                    <div className="flex items-center gap-2">
-                                        <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
-                                            MIT License
-                                        </span>
-                                    </div>
+                                </div>
+
+                                <div className="flex items-center gap-2">
+                                    <Link href="/license" className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 transition-colors">
+                                        MIT License
+                                    </Link>
+                                    <span className="text-sm text-gray-500">Open Source Software</span>
                                 </div>
                             </div>
 

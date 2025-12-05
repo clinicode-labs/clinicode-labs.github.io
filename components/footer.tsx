@@ -45,24 +45,38 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-white mb-4">Company</h3>
             <ul className="space-y-3">
-              {footerLinks.company.map((link) => (
-                <li key={link.name}>
-                  <Link href={link.href} className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/about" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/license" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
+                  MIT License
+                </Link>
+              </li>
+              <li>
+                <Link href="mailto:hello@clinicode.io" className="text-gray-400 hover:text-[#0c6a6c] transition-colors">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
 
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/10">
-          <p className="text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} Clinicode Labs. All rights reserved.
+          <p className="text-center text-sm text-gray-400">
+            &copy; {new Date().getFullYear()} Clinicode Labs. All rights reserved.
           </p>
-          <p className="mt-2 text-center text-gray-500 text-xs">
-            Source code is <Link href="https://github.com/clinicode-labs/clinicode-labs.github.io" target="_blank" rel="noopener noreferrer" className="hover:text-[#0c6a6c] transition-colors underline">MIT Licensed</Link>.
+          <p className="text-center text-xs text-gray-400 mt-2">
+            <Link href="https://github.com/clinicode-labs/clinicode-labs.github.io" className="hover:text-[#0c6a6c] underline" target="_blank" rel="noopener noreferrer">
+              Source code
+            </Link>{" "}
+            is{" "}
+            <Link href="/license" className="hover:text-[#0c6a6c] underline">
+              MIT Licensed
+            </Link>.
           </p>
         </div>
       </div>

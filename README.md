@@ -1,21 +1,47 @@
 # Clinicode Labs
 
-Official website for Clinicode Labs - Clinical coding and healthcare technology solutions.
-
-## About
+**Official website for Clinicode Labs** - Clinical coding and healthcare technology solutions.
 
 Clinicode Labs provides innovative healthcare technology solutions focused on clinical coding and decision-making tools for medical professionals.
 
-## Website
+**[Visit Website](https://clinicode-labs.github.io)**
 
-This repository hosts the Clinicode Labs landing page at:  
-**[https://clinicode-labs.github.io](https://clinicode-labs.github.io)**
+## 🚀 Our Tools
 
-## Development
+We build small projects to solve specific problems encountered in clinical practice.
 
-This is a Next.js project with React 19 and Tailwind CSS.
+### [PomoDoist](https://clinicode-labs.github.io/tools/pomodoist)
+**Status:** ✅ Available Now
+Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.
 
-### Getting Started
+### [Frailty Calculator](https://clinicode-labs.github.io/tools/frailty-calculator)
+**Status:** 🚧 In Development
+Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes.
+
+### [MSHPrescribe App](https://clinicode-labs.github.io/tools/mshprescribe)
+**Status:** 🧪 Beta Testing
+Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. Designed for Queensland Health clinicians.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 16](https://nextjs.org/)
+- **UI Library:** [React 19](https://react.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Components:** [Radix UI](https://www.radix-ui.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Analytics:** Vercel Analytics
+
+## 📦 Deployment
+
+This project is deployed to **GitHub Pages** using a custom CI/CD pipeline.
+
+- **Workflow:** `.github/workflows/deploy.yml`
+- **Package Manager:** `pnpm`
+- **Build Output:** Static HTML export (`output: 'export'` in `next.config.mjs`)
+
+### Local Development
 
 ```bash
 # Install dependencies
@@ -28,15 +54,6 @@ pnpm dev
 pnpm build
 ```
 
-### Tech Stack
-
-- **Framework:** Next.js 16
-- **UI Library:** React 19
-- **Styling:** Tailwind CSS 4
-- **Components:** Radix UI
-- **Icons:** Lucide React
-- **Analytics:** Vercel Analytics
-
-## License
+## 📄 License
 
 Copyright © 2025 Clinicode Labs. All rights reserved.

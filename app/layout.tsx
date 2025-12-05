@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   description: 'Clinical coding and healthcare technology',
   icons: {
     icon: [
-      { url: '/assets/logo_square.svg', type: 'image/svg+xml' },
+      { url: '/assets/logo_appicon_square.svg', type: 'image/svg+xml' },
     ],
-    shortcut: '/assets/logo_square.svg',
-    apple: '/assets/logo_square.svg',
+    shortcut: '/assets/logo_appicon_square.svg',
+    apple: '/assets/logo_appicon_square.svg',
   },
 }
 

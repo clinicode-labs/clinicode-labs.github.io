@@ -62,7 +62,7 @@ export function Footer() {
             © {new Date().getFullYear()} Clinicode Labs. All rights reserved.
           </p>
           <p className="mt-2 text-center text-gray-500 text-xs">
-            Source code is MIT Licensed.
+            Source code is <Link href="https://github.com/clinicode-labs/clinicode-labs.github.io" target="_blank" rel="noopener noreferrer" className="hover:text-[#0c6a6c] transition-colors underline">MIT Licensed</Link>.
           </p>
         </div>
       </div>

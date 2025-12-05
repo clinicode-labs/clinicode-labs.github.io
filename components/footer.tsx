@@ -23,7 +23,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Logo and description */}
           <div className="lg:col-span-2">
-            <img src="/assets/logo_darkmode.svg" alt="Clinicode Labs" className="h-24 w-auto" />
+            <img src="/assets/logo_darkmode.svg" alt="Clinicode Labs" className="h-40 w-auto" />
             <p className="mt-4 text-gray-400 max-w-sm leading-relaxed">
               Simple, practical tools built by Australian doctors to make clinical workflow easier.
             </p>

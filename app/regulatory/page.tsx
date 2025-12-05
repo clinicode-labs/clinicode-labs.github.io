@@ -110,11 +110,7 @@ export default function RegulatoryPage() {
                                 </Link>.
                             </p>
 
-                            <div className="border-t border-gray-200 mt-12 pt-6">
-                                <p className="text-sm text-gray-500">
-                                    Last updated: December 2024
-                                </p>
-                            </div>
+
                         </div>
                     </div>
                 </div>

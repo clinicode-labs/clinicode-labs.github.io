@@ -24,7 +24,7 @@ export default function AboutPage() {
                             <h2 className="text-2xl font-bold text-[#152549] mt-12 mb-4">The Mission</h2>
                             <p className="text-gray-600 leading-relaxed">
                                 Clinicode Labs is my way of building practical tools that solve real problems I encounter in clinical practice.
-                                No fancy promises, no exaggeration—just simple apps that make the day-to-day work a bit easier.
+                                Just simple apps that make the day-to-day work a bit easier.
                             </p>
 
                             <h2 className="text-2xl font-bold text-[#152549] mt-12 mb-4">Why Build These Tools?</h2>

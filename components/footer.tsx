@@ -81,7 +81,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-center text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} Clinicode Labs. All rights reserved.
+            &copy; {new Date().getFullYear()} Ashane Herath. All rights reserved.
           </p>
           <p className="text-center text-xs text-gray-400 mt-2">
             <Link href="https://github.com/clinicode-labs/clinicode-labs.github.io" className="hover:text-[#0c6a6c] underline" target="_blank" rel="noopener noreferrer">

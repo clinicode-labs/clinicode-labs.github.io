@@ -13,7 +13,7 @@ export default function LicensePage() {
                                 MIT License
                             </h1>
                             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 text-gray-700 leading-relaxed font-mono text-sm whitespace-pre-wrap">
-                                <p className="mb-6">Copyright 2025 Clinicode Labs</p>
+                                <p className="mb-6">Copyright 2025 Ashane Herath</p>
 
                                 <p className="mb-6">
                                     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

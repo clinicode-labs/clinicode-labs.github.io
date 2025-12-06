@@ -35,6 +35,11 @@ Single-input calculator for Child-Pugh, MELD, MELD-Na, and Maddrey’s Discrimin
 
 Digitized Queensland Health electrolyte replacement guidelines. Select element (K, Mg, PO4) and level to get recommended dose and route.
 
+### [Prep-Pal](https://clinicode-labs.github.io/tools/prep-pal)
+**Status:** 🚧 In Development
+
+Bowel Prep Timeline Generator. Visual timeline generator for bowel prep with simple instructions for patients.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -71,4 +76,4 @@ pnpm build
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright © 2025 Clinicode Labs. All rights reserved.
+Copyright © 2025 Ashane Herath. All rights reserved.

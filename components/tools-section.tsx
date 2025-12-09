@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Timer, Calculator, Smartphone, Activity, TestTube, CalendarClock } from "lucide-react"
+import { Timer, Calculator, Activity, TestTube, CalendarClock } from "lucide-react"
 import Link from "next/link"
 
 const tools = [
@@ -13,13 +13,7 @@ const tools = [
     status: "Available Now",
     slug: "pomodoist",
   },
-  {
-    title: "MSHPrescribe App",
-    description: "Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. For Queensland Health clinicians.",
-    icon: Smartphone,
-    status: "Beta Testing",
-    slug: "mshprescribe",
-  },
+
   {
     title: "Frailty Calculator",
     description:

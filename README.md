@@ -15,11 +15,6 @@ We build small projects to solve specific problems encountered in clinical pract
 
 Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.
 
-### [MSHPrescribe App](https://clinicode-labs.github.io/tools/mshprescribe)
-**Status:** 🧪 Beta Testing
-
-Unofficial native mobile app for accessing MSHPrescribe clinical guidelines offline on your phone. Designed for Queensland Health clinicians.
-
 ### [Frailty Calculator](https://clinicode-labs.github.io/tools/frailty-calculator)
 **Status:** 🚧 In Development
 

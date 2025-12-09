@@ -5,7 +5,7 @@ const footerLinks = {
   tools: [
     { name: "PomoDoist", href: "/tools/pomodoist" },
     { name: "Frailty Calculator", href: "/tools/frailty-calculator" },
-    { name: "MSHPrescribe App", href: "/tools/mshprescribe" },
+
     { name: "The \"One-Stop\" Liver Screen", href: "/tools/liver-screen" },
     { name: "Electrolyte Replacement Wizard", href: "/tools/electrolyte-wizard" },
     { name: "Prep-Pal", href: "/tools/prep-pal" },

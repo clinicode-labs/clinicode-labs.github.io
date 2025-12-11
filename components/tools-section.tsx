@@ -15,19 +15,19 @@ const tools = [
   },
 
   {
+    title: "Liver Calc",
+    description: "High-precision clinical calculator designed for Hepatology and Transplant Medicine. Calculates MELD 3.0, Child-Pugh, and more.",
+    icon: Activity,
+    status: "Beta Testing",
+    slug: "liver-calc",
+  },
+  {
     title: "Frailty Calculator",
     description:
       "Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes. Coming soon.",
     icon: Calculator,
     status: "In Development",
     slug: "frailty-calculator",
-  },
-  {
-    title: "Liver Calc",
-    description: "High-precision clinical calculator designed for Hepatology and Transplant Medicine. Calculates MELD 3.0, Child-Pugh, and more.",
-    icon: Activity,
-    status: "In Development",
-    slug: "liver-calc",
   },
   {
     title: "Electrolyte Replacement Wizard",

@@ -36,8 +36,8 @@ export default function LiverCalcPage() {
 
                 {/* Status Badge */}
                 <div className="flex flex-wrap items-center gap-4 mb-6">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 border border-amber-200 rounded-full">
-                        <span className="text-sm font-medium text-amber-800">🚧 In Development</span>
+                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-full">
+                        <span className="text-sm font-medium text-blue-800">🧪 Beta Testing</span>
                     </div>
                 </div>
 

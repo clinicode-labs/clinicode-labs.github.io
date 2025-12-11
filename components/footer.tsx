@@ -4,9 +4,8 @@ import Image from "next/image"
 const footerLinks = {
   tools: [
     { name: "PomoDoist", href: "/tools/pomodoist" },
-    { name: "Frailty Calculator", href: "/tools/frailty-calculator" },
-
     { name: "Liver Calc", href: "/tools/liver-calc" },
+    { name: "Frailty Calculator", href: "/tools/frailty-calculator" },
     { name: "Electrolyte Replacement Wizard", href: "/tools/electrolyte-wizard" },
     { name: "Prep-Pal", href: "/tools/prep-pal" },
   ],

@@ -15,15 +15,15 @@ We build small projects to solve specific problems encountered in clinical pract
 
 Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and get smart productivity insights across all your devices.
 
+### [Liver Calc](https://clinicode-labs.github.io/tools/liver-calc)
+**Status:** 🧪 Beta Testing
+
+High-precision clinical calculator designed for Hepatology and Transplant Medicine. Calculates MELD 3.0, Child-Pugh, and more.
+
 ### [Frailty Calculator](https://clinicode-labs.github.io/tools/frailty-calculator)
 **Status:** 🚧 In Development
 
 Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes.
-
-### [Liver Calc](https://clinicode-labs.github.io/tools/liver-calc)
-**Status:** 🚧 In Development
-
-High-precision clinical calculator designed for Hepatology and Transplant Medicine. Calculates MELD 3.0, Child-Pugh, and more.
 
 ### [Electrolyte Replacement Wizard](https://clinicode-labs.github.io/tools/electrolyte-wizard)
 **Status:** 🚧 In Development

@@ -23,11 +23,11 @@ const tools = [
     slug: "frailty-calculator",
   },
   {
-    title: "The 'One-Stop' Liver Screen",
-    description: "Single-input calculator for Child-Pugh, MELD, MELD-Na, and Maddrey’s Discriminant Function. Enter values once, get all scores.",
+    title: "Liver Calc",
+    description: "High-precision clinical calculator designed for Hepatology and Transplant Medicine. Calculates MELD 3.0, Child-Pugh, and more.",
     icon: Activity,
     status: "In Development",
-    slug: "liver-screen",
+    slug: "liver-calc",
   },
   {
     title: "Electrolyte Replacement Wizard",

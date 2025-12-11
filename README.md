@@ -20,10 +20,10 @@ Pomodoro timer that syncs with Todoist. Track focus time, estimate tasks, and ge
 
 Point-of-care risk stratification tool for assessing patient frailty and predicting clinical outcomes.
 
-### [The 'One-Stop' Liver Screen](https://clinicode-labs.github.io/tools/liver-screen)
+### [Liver Calc](https://clinicode-labs.github.io/tools/liver-calc)
 **Status:** 🚧 In Development
 
-Single-input calculator for Child-Pugh, MELD, MELD-Na, and Maddrey’s Discriminant Function. Enter values once, get all scores.
+High-precision clinical calculator designed for Hepatology and Transplant Medicine. Calculates MELD 3.0, Child-Pugh, and more.
 
 ### [Electrolyte Replacement Wizard](https://clinicode-labs.github.io/tools/electrolyte-wizard)
 **Status:** 🚧 In Development

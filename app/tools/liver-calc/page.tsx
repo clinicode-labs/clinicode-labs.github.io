@@ -17,6 +17,16 @@ export default function LiverCalcPage() {
             subtitle="High-Precision Hepatology Calculator"
             icon={Activity}
         >
+            {/* Disclaimer */}
+            <div className="bg-amber-50 rounded-2xl p-6 border border-amber-200 mb-8">
+                <h3 className="font-semibold text-amber-900 mb-2">⚖️ Medical Disclaimer</h3>
+                <p className="text-sm text-amber-800 leading-relaxed">
+                    For Medical Professionals Only. This application is intended as a clinical decision support tool.
+                    While rigorous testing has been performed to ensure compliance with OPTN/UNOS formulas, the results should not be the sole basis for medical decisions.
+                    Clinical judgment must always supersede calculated scores.
+                </p>
+            </div>
+
             {/* Description */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 mb-8">
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -57,15 +67,7 @@ export default function LiverCalcPage() {
                 </ul>
             </div>
 
-            {/* Disclaimer */}
-            <div className="bg-amber-50 rounded-2xl p-6 border border-amber-200">
-                <h3 className="font-semibold text-amber-900 mb-2">⚖️ Medical Disclaimer</h3>
-                <p className="text-sm text-amber-800 leading-relaxed">
-                    For Medical Professionals Only. This application is intended as a clinical decision support tool.
-                    While rigorous testing has been performed to ensure compliance with OPTN/UNOS formulas, the results should not be the sole basis for medical decisions.
-                    Clinical judgment must always supersede calculated scores.
-                </p>
-            </div>
+
         </ToolLayout>
     )
 }

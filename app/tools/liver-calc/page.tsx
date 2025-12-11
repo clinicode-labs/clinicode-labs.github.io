@@ -34,6 +34,13 @@ export default function LiverCalcPage() {
                     It implements the latest OPTN 2023 calculations for liver disease severity, strictly adhering to medical standards for precision, safety, and usability.
                 </p>
 
+                {/* Status Badge */}
+                <div className="flex flex-wrap items-center gap-4 mb-6">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 border border-amber-200 rounded-full">
+                        <span className="text-sm font-medium text-amber-800">🚧 In Development</span>
+                    </div>
+                </div>
+
                 {/* CTA Buttons */}
                 <div className="flex flex-wrap items-center gap-4 mb-6">
                     <Link href="https://github.com/AshaneH/liver-calc" target="_blank" rel="noopener noreferrer">
